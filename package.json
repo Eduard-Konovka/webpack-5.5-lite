@@ -1,7 +1,7 @@
 {
   "name": "webpack-5.5-lite",
   "version": "1.0.0",
-  "description": "",
+  "description": "Сборка Webpack 5.5",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode=development",
@@ -37,6 +37,7 @@
     "webpack-dev-server": "^4.0.0"
   },
   "dependencies": {
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^3.2.3",
+    "handlebars-loader": "^1.7.1"
   }
 }
